@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FB37EC31E683EA600C7A2B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB37EC21E683EA600C7A2B2 /* AppDelegate.swift */; };
+		1FB37EC51E683EA600C7A2B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB37EC41E683EA600C7A2B2 /* ViewController.swift */; };
+		1FB37EC81E683EA600C7A2B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB37EC61E683EA600C7A2B2 /* Main.storyboard */; };
+		1FB37ECA1E683EA600C7A2B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB37EC91E683EA600C7A2B2 /* Assets.xcassets */; };
+		1FB37ECD1E683EA600C7A2B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB37ECB1E683EA600C7A2B2 /* LaunchScreen.storyboard */; };
+		1FB37ED81E683EA600C7A2B2 /* SwipeAlexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB37ED71E683EA600C7A2B2 /* SwipeAlexTests.swift */; };
+		1FB37EE31E683EA600C7A2B2 /* SwipeAlexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB37EE21E683EA600C7A2B2 /* SwipeAlexUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FB37ED41E683EA600C7A2B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB37EB71E683EA600C7A2B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FB37EBE1E683EA600C7A2B2;
+			remoteInfo = SwipeAlex;
+		};
+		1FB37EDF1E683EA600C7A2B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB37EB71E683EA600C7A2B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FB37EBE1E683EA600C7A2B2;
+			remoteInfo = SwipeAlex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FB37EBF1E683EA600C7A2B2 /* SwipeAlex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeAlex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB37EC21E683EA600C7A2B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FB37EC41E683EA600C7A2B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FB37EC71E683EA600C7A2B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FB37EC91E683EA600C7A2B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FB37ECC1E683EA600C7A2B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FB37ECE1E683EA600C7A2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB37ED31E683EA600C7A2B2 /* SwipeAlexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeAlexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB37ED71E683EA600C7A2B2 /* SwipeAlexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAlexTests.swift; sourceTree = "<group>"; };
+		1FB37ED91E683EA600C7A2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB37EDE1E683EA600C7A2B2 /* SwipeAlexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeAlexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB37EE21E683EA600C7A2B2 /* SwipeAlexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAlexUITests.swift; sourceTree = "<group>"; };
+		1FB37EE41E683EA600C7A2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FB37EBC1E683EA600C7A2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB37ED01E683EA600C7A2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB37EDB1E683EA600C7A2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FB37EB61E683EA600C7A2B2 = {
+			isa = PBXGroup;
+			children = (
+				1FB37EC11E683EA600C7A2B2 /* SwipeAlex */,
+				1FB37ED61E683EA600C7A2B2 /* SwipeAlexTests */,
+				1FB37EE11E683EA600C7A2B2 /* SwipeAlexUITests */,
+				1FB37EC01E683EA600C7A2B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FB37EC01E683EA600C7A2B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FB37EBF1E683EA600C7A2B2 /* SwipeAlex.app */,
+				1FB37ED31E683EA600C7A2B2 /* SwipeAlexTests.xctest */,
+				1FB37EDE1E683EA600C7A2B2 /* SwipeAlexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FB37EC11E683EA600C7A2B2 /* SwipeAlex */ = {
+			isa = PBXGroup;
+			children = (
+				1FB37EC21E683EA600C7A2B2 /* AppDelegate.swift */,
+				1FB37EC41E683EA600C7A2B2 /* ViewController.swift */,
+				1FB37EC61E683EA600C7A2B2 /* Main.storyboard */,
+				1FB37EC91E683EA600C7A2B2 /* Assets.xcassets */,
+				1FB37ECB1E683EA600C7A2B2 /* LaunchScreen.storyboard */,
+				1FB37ECE1E683EA600C7A2B2 /* Info.plist */,
+			);
+			path = SwipeAlex;
+			sourceTree = "<group>";
+		};
+		1FB37ED61E683EA600C7A2B2 /* SwipeAlexTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FB37ED71E683EA600C7A2B2 /* SwipeAlexTests.swift */,
+				1FB37ED91E683EA600C7A2B2 /* Info.plist */,
+			);
+			path = SwipeAlexTests;
+			sourceTree = "<group>";
+		};
+		1FB37EE11E683EA600C7A2B2 /* SwipeAlexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FB37EE21E683EA600C7A2B2 /* SwipeAlexUITests.swift */,
+				1FB37EE41E683EA600C7A2B2 /* Info.plist */,
+			);
+			path = SwipeAlexUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FB37EBE1E683EA600C7A2B2 /* SwipeAlex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB37EE71E683EA600C7A2B2 /* Build configuration list for PBXNativeTarget "SwipeAlex" */;
+			buildPhases = (
+				1FB37EBB1E683EA600C7A2B2 /* Sources */,
+				1FB37EBC1E683EA600C7A2B2 /* Frameworks */,
+				1FB37EBD1E683EA600C7A2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeAlex;
+			productName = SwipeAlex;
+			productReference = 1FB37EBF1E683EA600C7A2B2 /* SwipeAlex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FB37ED21E683EA600C7A2B2 /* SwipeAlexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB37EEA1E683EA600C7A2B2 /* Build configuration list for PBXNativeTarget "SwipeAlexTests" */;
+			buildPhases = (
+				1FB37ECF1E683EA600C7A2B2 /* Sources */,
+				1FB37ED01E683EA600C7A2B2 /* Frameworks */,
+				1FB37ED11E683EA600C7A2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FB37ED51E683EA600C7A2B2 /* PBXTargetDependency */,
+			);
+			name = SwipeAlexTests;
+			productName = SwipeAlexTests;
+			productReference = 1FB37ED31E683EA600C7A2B2 /* SwipeAlexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FB37EDD1E683EA600C7A2B2 /* SwipeAlexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB37EED1E683EA600C7A2B2 /* Build configuration list for PBXNativeTarget "SwipeAlexUITests" */;
+			buildPhases = (
+				1FB37EDA1E683EA600C7A2B2 /* Sources */,
+				1FB37EDB1E683EA600C7A2B2 /* Frameworks */,
+				1FB37EDC1E683EA600C7A2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FB37EE01E683EA600C7A2B2 /* PBXTargetDependency */,
+			);
+			name = SwipeAlexUITests;
+			productName = SwipeAlexUITests;
+			productReference = 1FB37EDE1E683EA600C7A2B2 /* SwipeAlexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FB37EB71E683EA600C7A2B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Александр";
+				TargetAttributes = {
+					1FB37EBE1E683EA600C7A2B2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					1FB37ED21E683EA600C7A2B2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FB37EBE1E683EA600C7A2B2;
+					};
+					1FB37EDD1E683EA600C7A2B2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1FB37EBE1E683EA600C7A2B2;
+					};
+				};
+			};
+			buildConfigurationList = 1FB37EBA1E683EA600C7A2B2 /* Build configuration list for PBXProject "SwipeAlex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FB37EB61E683EA600C7A2B2;
+			productRefGroup = 1FB37EC01E683EA600C7A2B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FB37EBE1E683EA600C7A2B2 /* SwipeAlex */,
+				1FB37ED21E683EA600C7A2B2 /* SwipeAlexTests */,
+				1FB37EDD1E683EA600C7A2B2 /* SwipeAlexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FB37EBD1E683EA600C7A2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB37ECD1E683EA600C7A2B2 /* LaunchScreen.storyboard in Resources */,
+				1FB37ECA1E683EA600C7A2B2 /* Assets.xcassets in Resources */,
+				1FB37EC81E683EA600C7A2B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB37ED11E683EA600C7A2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB37EDC1E683EA600C7A2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FB37EBB1E683EA600C7A2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB37EC51E683EA600C7A2B2 /* ViewController.swift in Sources */,
+				1FB37EC31E683EA600C7A2B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB37ECF1E683EA600C7A2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB37ED81E683EA600C7A2B2 /* SwipeAlexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB37EDA1E683EA600C7A2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB37EE31E683EA600C7A2B2 /* SwipeAlexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FB37ED51E683EA600C7A2B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FB37EBE1E683EA600C7A2B2 /* SwipeAlex */;
+			targetProxy = 1FB37ED41E683EA600C7A2B2 /* PBXContainerItemProxy */;
+		};
+		1FB37EE01E683EA600C7A2B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FB37EBE1E683EA600C7A2B2 /* SwipeAlex */;
+			targetProxy = 1FB37EDF1E683EA600C7A2B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FB37EC61E683EA600C7A2B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB37EC71E683EA600C7A2B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FB37ECB1E683EA600C7A2B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB37ECC1E683EA600C7A2B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FB37EE51E683EA600C7A2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FB37EE61E683EA600C7A2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FB37EE81E683EA600C7A2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipeAlex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexInc.SwipeAlex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1FB37EE91E683EA600C7A2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipeAlex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexInc.SwipeAlex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1FB37EEB1E683EA600C7A2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwipeAlexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexInc.SwipeAlexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeAlex.app/SwipeAlex";
+			};
+			name = Debug;
+		};
+		1FB37EEC1E683EA600C7A2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwipeAlexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexInc.SwipeAlexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeAlex.app/SwipeAlex";
+			};
+			name = Release;
+		};
+		1FB37EEE1E683EA600C7A2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SwipeAlexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexInc.SwipeAlexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwipeAlex;
+			};
+			name = Debug;
+		};
+		1FB37EEF1E683EA600C7A2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SwipeAlexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlexInc.SwipeAlexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwipeAlex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FB37EBA1E683EA600C7A2B2 /* Build configuration list for PBXProject "SwipeAlex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB37EE51E683EA600C7A2B2 /* Debug */,
+				1FB37EE61E683EA600C7A2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FB37EE71E683EA600C7A2B2 /* Build configuration list for PBXNativeTarget "SwipeAlex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB37EE81E683EA600C7A2B2 /* Debug */,
+				1FB37EE91E683EA600C7A2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FB37EEA1E683EA600C7A2B2 /* Build configuration list for PBXNativeTarget "SwipeAlexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB37EEB1E683EA600C7A2B2 /* Debug */,
+				1FB37EEC1E683EA600C7A2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FB37EED1E683EA600C7A2B2 /* Build configuration list for PBXNativeTarget "SwipeAlexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB37EEE1E683EA600C7A2B2 /* Debug */,
+				1FB37EEF1E683EA600C7A2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FB37EB71E683EA600C7A2B2 /* Project object */;
+}
